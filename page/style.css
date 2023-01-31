@@ -8,7 +8,7 @@ body {
     margin: auto;
     background-color: grey;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .container {
@@ -22,16 +22,38 @@ body {
 
 .leftdiv {
     height: 100vh;
-    margin-top: 50px;
     width: 30%;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
-    font: inherit;
     font-size: 100%;
-    text-align: center;
     color: white;
-    background-color: rgb(4, 152, 4);
-    
+    background-color: rgb(34, 96, 34);
+    position: relative;
+}
+
+.leftdiv .margin {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.leftdiv .margin .icons {
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 130px;
+}
+
+.leftdiv .icons .fa-brands {
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftdiv .margin h3 {
+    margin-top: 20px;
 }
 
 .rightdiv {
@@ -41,8 +63,47 @@ body {
     border-radius: 10px;
     font: inherit;
     font-size: 100%;
-    flex-direction: left end;
-    text-align: center;
     background-color: white;
-    flex-direction: left end;
+}
+
+.margin {
+    margin-left: 15%;
+    margin-top: 12%;
+}
+
+.rightdiv .margin h6 {
+    margin-top: 20px;
+}
+
+.rightdiv .margin input {
+    width: 80%;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+@media (max-width: 700px) {
+    .container {
+        display: flexbox;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        ;
+    }
+
+    .leftdiv {
+        margin-top: 0px;
+        width: 90%;
+        height: 100vh;
+        padding-bottom: 0px;
+        text-align: center;
+        justify-content: center;
+        font-size: 2rem
+    }
+
+    .rightdiv {
+        margin-top: 0px;
+    }
 }
