@@ -4,6 +4,45 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.leftdiv {
+body {
+    margin: auto;
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
     
+}
+
+.container {
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftdiv {
+    height: 100vh;
+    margin-top: 50px;
+    width: 30%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 152, 4);
+    
+}
+
+.rightdiv {
+    height: 100vh;
+    width: 70%;
+    margin-top: 50px;
+    border-radius: 10px;
+    font: inherit;
+    font-size: 100%;
+    flex-direction: left end;
+    text-align: center;
+    background-color: white;
+    flex-direction: left end;
 }
