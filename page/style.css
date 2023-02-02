@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     font-size: 100%;
     color: white;
-    background-color: rgb(34, 96, 34);
+    background-color: rgb(10, 87, 13);
     position: relative;
 }
 
@@ -37,15 +37,23 @@ body {
     margin-top: 50px;
 }
 
+.leftdiv .dotcon {
+    padding: 10px;
+}
+
 .leftdiv .margin .icons {
     align-items: center;
     margin-left: 0px;
-    margin-top: 130px;
+    margin-top: 30px;
+}
+
+.leftdiv .margin .fa {
+    padding: 10px;
 }
 
 .leftdiv .icons .fa-brands {
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 0px;
     margin-left: 15px;
     color: white;
     font-size: 20px;
@@ -83,14 +91,49 @@ body {
     margin-top: 5px;
 }
 
+.buttuncon1 {
+    position: absolute;
+    margin-left: -4%;
+}
+
+.buttuncon1 small {
+    margin-left: -5px;
+}
+
+.buttuncon2 {
+    margin-left: 40px;
+}
+
+.buttuncon2 small {
+    margin-left: -110px;
+}
+
+.box {
+    margin-top: 30px;
+    height: 30px;
+    width: 85%;
+    padding-top: 5px;
+    background-color: rgb(10, 87, 13);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
 
 @media (max-width: 700px) {
+
+    .margin .cons {
+        position: left end;
+        margin-left: -100px;
+    }
+    
     .container {
-        display: flexbox;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        ;
     }
 
     .leftdiv {
@@ -100,10 +143,23 @@ body {
         padding-bottom: 0px;
         text-align: center;
         justify-content: center;
-        font-size: 2rem
+        font-size: 1.2rem;
+        padding: 0px;
+        height: 90vh;
+        position: relative;
+    }
+
+    .leftdiv .icons {
+        padding-top: 0px;
+        position: relative;
+        margin-top: -200px;
     }
 
     .rightdiv {
-        margin-top: 0px;
+        margin-top: -50px;
+        width: 90%;
+        height: 100vh;
+        border-radius-bottom: 0px;
     }
 }
+
