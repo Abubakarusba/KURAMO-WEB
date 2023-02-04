@@ -21,7 +21,7 @@ body {
 }
 
 .leftdiv {
-    height: 100%;
+    height: 100vh;
     width: 30%;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -30,7 +30,6 @@ body {
     color: white;
     background-color: rgb(10, 87, 13);
     position: relative;
-    padding-bottom: 18px;
 }
 
 .leftdiv .margin {
@@ -45,7 +44,7 @@ body {
 .leftdiv .margin .icons {
     align-items: center;
     margin-left: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 150px;
 }
 
@@ -67,7 +66,7 @@ body {
 }
 
 .rightdiv {
-    height: 100%;
+    height: 100vh;
     width: 70%;
     margin-top: 50px;
     border-radius: 10px;
@@ -116,10 +115,8 @@ body {
 .box {
     margin-top: 20px;
     height: 30px;
-    margin-bottom: 20px;
     width: 85%;
     padding-top: 5px;
-    padding-bottom: ;
     background-color: rgb(10, 87, 13);
     color: white;
     border-radius: 5px;
@@ -169,8 +166,11 @@ body {
 
     .rightdiv {
         width: 90%;
-        height: 80vh;
-        border-radius-bottom: 0px;
+        height: 100vh;
+    }
+
+   .margin .buttuncon2 small{
+    margin-left: -140px;
     }
 }
 
