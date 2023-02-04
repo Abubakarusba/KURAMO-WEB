@@ -88,28 +88,32 @@
                 </h6>
                 <form action="input">
                     <h6>Name</h6>
-                    <input type="text" placeholder="Your name">
+                    <input class="im" type="text" placeholder="Your name">
                     <h6>Email</h6>
-                    <input type="email" placeholder="Example@email.com" required value="" >
+                    <input class="im" type="email" placeholder="Example@email.com" required value="">
                     <h6>Phone number</h6>
-                    <input type="number" placeholder="Your contact" minlength="11" required>
+                    <input class="im" type="number" placeholder="Your contact" minlength="11" required>
                     <h6>How can we help?</h6>
-                    <input type="text" placeholder="Type here" style="padding-bottom: 50px;">
+                    <input class="im" type="text" placeholder="Type here" style="padding-bottom: 50px;">
                 </form>
-                <small>SERVICE</small>
-                <div class="buttuncon1"  style="margin-left: 0px;">
-                    <input type="checkbox" name="radio" id=""><small>ss1</small>
-                    <input type="checkbox" name="radio" id=""><small>ss2</small>
-                    <input type="checkbox" name="radio" id=""><small>ss3</small>
-
-                </div>
-                <div class="buttuncon2">
-                    <input type="checkbox" name="radio" id=""><small>Scholarship</small>
-                    <input type="checkbox" name="radio" id=""><small>Internship</small>
-                    <input type="checkbox" name="radio" id=""><small>Event Space</small>
-                </div>
-
-
+                <small style="margin: 10px;">SERVICE</small>
+                <fieldset class="classcol">
+                    <label for="ss1"> <input type="checkbox" name="ss1" required id="ss1"> SS1</label>
+                    <label for="ss2"> <input type="checkbox" name="ss2" required id="ss2"> SS2</label>
+                    <label for="ss3"> <input type="checkbox" name="ss3" required> SS3</label>
+                </fieldset>
+                <fieldset class="classco2">
+                    <label for="event"> <input type="checkbox" name="event" required id="event"> Event</label>
+                    <label for="WAEC"> <input type="checkbox" name="WAEC" required id="WAEC"> WAEC</label>
+                    <label for="Internship"> <input type="checkbox" name="Internship" required>Internship</label>
+                </fieldset>
+                <fieldset  class="tc">
+                    <label for="terms-and-conditions">
+                        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions"
+                            class="inline" /> I accept the <a
+                            href="https://googole.com/">terms and conditions</a>
+                    </label>
+                </fieldset>
                 <div class="box"> Get started</div>
             </div>
         </div>

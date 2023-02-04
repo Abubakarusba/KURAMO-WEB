@@ -89,7 +89,8 @@ body {
 .rightdiv .dotcon {
     display: none;
 }
-.rightdiv .margin input {
+
+.rightdiv .margin .im {
     width: 80%;
     height: 20px;
     padding-left: 5px;
@@ -97,22 +98,6 @@ body {
     margin-top: 5px;
 }
 
-.buttuncon1 {
-    position: absolute;
-    margin-left: -4%;
-}
-
-.buttuncon1 small {
-    margin-left: -5px;
-}
-
-.buttuncon2 {
-    margin-left: 0px;
-}
-
-.buttuncon2 small {
-    margin-left: -250px;
-}
 
 .box {
     margin-top: 20px;
@@ -126,8 +111,33 @@ body {
 
 }
 
+.classcol {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
 
+.classcol label {
+    padding: 0.5em;
+}
 
+.classco2 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    position: absolute;
+    margin-left: 10em;
+    margin-top: -115px;
+}
+
+.classco2 label {
+    padding: 0.5em;
+}
+
+.tc {
+    border: none;
+    display: none;
+}
 
 @media (max-width: 700px) {
     .rightdiv .dotcon {
@@ -135,11 +145,12 @@ body {
         margin-left: 80px;
         margin-top: 10px;
     }
+
     .margin .cons {
         position: left end;
         margin-left: -100px;
     }
-    
+
     .container {
         flex-direction: column;
         align-items: center;
@@ -171,8 +182,28 @@ body {
         height: 110vh;
     }
 
-   .margin .buttuncon2 small{
-    margin-left: -140px;
+    small {
+        display: none;
+    }
+
+    .classco2 {
+        display: none;
+    }
+
+    .classcol {
+        display: none;
+    }
+
+    .tc {
+        margin-top: 2rem;
+        display: block;
+        border: none;
+    }
+    .box {
+        margin-bottom: 0px;
+    }
+    .rightdiv {
+        padding: 0px;
+        height: 80vh;
     }
 }
-
