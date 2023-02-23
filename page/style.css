@@ -179,7 +179,8 @@ body {
 
     .rightdiv {
         width: 90%;
-        height: 110vh;
+        height: 100%;
+        padding-bottom: 50px;
     }
 
     small {
@@ -201,9 +202,6 @@ body {
     }
     .box {
         margin-bottom: 0px;
-    }
-    .rightdiv {
-        padding: 0px;
-        height: 80vh;
+        justify-content: fl;
     }
 }
