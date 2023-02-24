@@ -1,0 +1,58 @@
+* {
+    border: 0;
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(23, 42, 49, 0.9), rgba(23, 42, 49, 0.9)), url(/images/logo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: ;
+    margin-bottom: 0;
+}
+
+.schoolname {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 2px solid rgb(19, 128, 0);
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.container {
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    word-wrap: wrap;
+    color: white;
+}
+
+p {
+    padding: 5px
+}
+
+footer{
+    padding-top: 0;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgb(5, 22, 11);
+    width: 100%;
+    color: #dcf3e2;
+    position: fixed;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+footer small i{
+    justify-content: flex-end;
+}
