@@ -9,9 +9,13 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-repeat: ;
     margin-bottom: 0;
 }
+
+
+
+/*-------history of kuramo-----*/
+
 
 .schoolname {
     text-align: center;
@@ -19,9 +23,9 @@ body {
     font-weight: 1000;
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-left: 2px solid rgb(19, 128, 0);
     font-weight: 600;
     margin-top: 1rem;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -34,25 +38,235 @@ body {
     margin-right: 2rem;
     word-wrap: wrap;
     color: white;
+    word-spacing: 3px;
+    overflow: hidden;
 }
 
 p {
     padding: 5px
 }
 
-footer{
+@media (max-width: 670px) {
+    .container p{
+        text-align: center;
+    }
+}
+
+/* ----- present staff -------*/
+
+
+.imgcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30px;
+    align-items: center;
+    justify-content: center;
+  
+}
+ .imgcontainer div img {
+    border-radius: 10px;
+}
+
+.imgcontainer .div1{
+    margin-top: 20px;
+}
+.imgcontainer .div1 img{
+    border-radius: 10px;
+}
+
+.imgcontainer h4 {
+    
+    color: #5bf6c3;
+    margin-left: 3rem;
+}
+.imgcontainer p {
+    max-width: 250px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.imgcontainer img {
+    height: 100px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.staff .stafftext {
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+@media (max-width: 670px) {
+    .imgcontainer p{
+        text-align: center;
+        margin-left: 0;
+    }
+    .imgcontainer h4{
+        text-align: center;
+        margin: 0;
+    }
+
+    .imgcontainer img{
+       margin-top: 3rem;
+       display: ruby-base-container;
+       margin-left: 31.5%;
+    }
+
+}
+
+
+
+
+/*------mission and vission-----*/
+
+
+
+.mvcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    color:rgb(0, 0, 0);
+    gap: 30px;
+    justify-content: center;
+}
+
+.mvcontainer .mission{
+    max-width: 45%;
+    background:#e7f8eb;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+.mvcontainer .vission{
+    max-width: 45%;
+    background: #e7f8eb;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+.mvcontainer h1 {
+    color: black;
+}
+
+@media (max-width: 670px) {
+    .mvcontainer{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mvcontainer .vission{
+        max-width: 90%;
+        text-align: center;
+        margin-left: 2rem;
+    }
+    .mvcontainer .mission{
+        max-width: 90%;
+        text-align: center;
+        margin-left: 2rem;
+    }
+}
+
+
+
+/*-----  Course ------*/
+
+.course {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+p {
+    color: "#777";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.p{
+    color: white;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col {
+    background: #e7f8eb;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 20px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 40%;
+
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:670px) {
+    .row {
+        flex-direction: column;
+    }
+    .course-col{
+        width: 90%;
+    }
+
+ }
+
+/*----- footer ------*/
+
+
+footer {
     padding-top: 0;
-    height: 300px;
+    height: 60px;
     width: 100%;
     text-align: center;
-    padding: 30px 0;
     background-color: rgb(5, 22, 11);
     width: 100%;
     color: #dcf3e2;
-    position: fixed;
     margin-bottom: 0;
     padding-bottom: 0px;
+    display: block;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
 }
-footer small i{
-    justify-content: flex-end;
+
+  i{
+    position: flex-end;
+    margin-top: 20px;
 }
+

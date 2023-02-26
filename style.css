@@ -31,6 +31,13 @@ nav h2 {
     text-decoration-color: rgb(1, 128, 37);
 
 }
+nav a img {
+    height: 5em;
+    border-start-end-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
 
 .nav-links {
     flex: 1;
@@ -193,7 +200,7 @@ h3 {
     }
  }
 
- /*------Campus-----*/
+ /*------premises-----*/
 
  .campus{
     width: 80%;
@@ -319,7 +326,7 @@ padding: 0;
 }
 
 .testimonial-col .fa, .fa-regular {
-    color: green;
+    color:#05160b;
 }
 
 @media (max-width:700px) {
@@ -346,6 +353,7 @@ padding: 0;
     color: white;
     margin-bottom: 40px;
     padding: 0;
+  
 }
 @media (max-width: 700px) {
     .cta h1 {
