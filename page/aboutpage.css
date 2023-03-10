@@ -2,6 +2,7 @@
     border: 0;
     margin: 0px;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -77,29 +78,25 @@ p {
 .imgcontainer .div1{
     margin-top: 20px;
 }
-.imgcontainer .div1 img{
-    border-radius: 10px;
-}
 
 .imgcontainer h4 {
-    
+    margin-left: 0.5rem;
     color: #5bf6c3;
-    margin-left: 3rem;
 }
 .imgcontainer p {
-    max-width: 250px;
+    max-width: 400px;
     color: #fff;
     margin-bottom: 20px;
 }
 
-.imgcontainer img {
-    height: 100px;
-    width: 100px;
+ img {
+    height: 300px;
+    width: 400px;
+    margin-top: 3rem;
     background-position: center;
     background-size: contain;
-    padding: 20px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0.5rem;
+
 }
 
 .staff .stafftext {
@@ -109,20 +106,33 @@ p {
     margin-bottom: 10px;
     margin-top: 50px;
 }
-@media (max-width: 670px) {
+@media (max-width: 480px) {
+    
+    .container p{
+        text-align: justify;
+        width: 97%;
+    }
     .imgcontainer p{
         text-align: center;
         margin-left: 0;
+        max-width: 84%;
     }
     .imgcontainer h4{
         text-align: center;
         margin: 0;
     }
 
-    .imgcontainer img{
+    .imgcontainer p{
+        text-align: justify;
+        width: 90%;
+        margin-left: 1.5rem;
+    }
+
+     img{
        margin-top: 1.5rem;
-       display: ruby-base-container;
-       margin-left: 31.5%;
+       margin-left: 2rem;
+       width: 84%;
+       border-radius: 10px;
     }
 
 }
@@ -167,7 +177,7 @@ p {
     color: black;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 660px) {
     .mvcontainer{ 
         display: flex;
         flex-direction: column;
@@ -209,6 +219,7 @@ p {
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+    line-height: 1.5rem;
 }
 
 .p{
@@ -227,9 +238,16 @@ p {
     margin-left: 20px;
     padding: 20px 12px;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 1s;
     width: 40%;
+    text-align: left;
+    word-spacing: 2%;
 
+}
+.course-col:hover{
+    background-color: #4e685f;
+    color: white;
+    font-weight: 700;
 }
 
 h3 {

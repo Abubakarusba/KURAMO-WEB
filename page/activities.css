@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(2, 3, 11, 0.7), rgba(3, 5, 14, 0.7)), url(/images/bgimg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.facilities {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+
+}
+.facilities .oura{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+   
+}
+.facilities img{
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+   align-self: center;
+   justify-self: center;
+}
+
+.overtheyears{
+    text-align: center;
+}

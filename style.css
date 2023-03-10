@@ -14,6 +14,8 @@
 
 }
 
+
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -37,7 +39,16 @@ nav a img {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
+    position: fixed;
+    z-index: 3;
 }
+
+@media (max-width: 670px) {
+    nav a img {
+        height: 3rem;
+    }
+}
+
 
 .nav-links {
     flex: 1;

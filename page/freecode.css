@@ -1,0 +1,42 @@
+:root{
+    --white: #fff;
+}
+
+*{
+    margin: 0;
+}
+
+#header-image {
+    width: 60px;
+    object-fit: contain;
+}
+#nav-bar{
+    display: flex;
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: blue;
+}
+
+.the-product{
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+section{
+    margin: 40px 20px;
+}
+#email-section{
+    margin-top: 100px;
+
+}
+
+@media (max-width: 6700px) {
+    img{
+        height: 200px;
+        width: 200px;
+    }
+}
