@@ -7,11 +7,15 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/bgimg.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/Bigimg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 
+}
+
+p {
+    letter-spacing: 1px;
 }
 
 nav {
@@ -241,7 +245,7 @@ h3 {
     transition: 0.5s;
  }
  .layer:hover {
-    background:  rgba(0,226,0,0.7);
+    background:  rgba(25, 104, 25, 0.7);
  }
 
  .layer h3 {
@@ -328,10 +332,11 @@ facilities-col h3 {
 padding: 0;
 }
 
-.testimonial-col img h3 {
-    margin-top: 15px;
+.testimonial-col h3 {
+    margin-top: 10px;
     text-align: left;
-    counter-reset: green;
+    counter-reset: rgb(5, 22, 11);
+    margin-left: 9.5px;
 }
 
 .testimonial-col .fa, .fa-regular {

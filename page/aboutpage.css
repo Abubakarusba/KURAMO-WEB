@@ -44,7 +44,9 @@ body {
 }
 
 p {
-    padding: 5px
+    padding: 5px;
+    line-height: 25px;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 670px) {
@@ -80,7 +82,7 @@ p {
 }
 
 .imgcontainer h4 {
-    margin-left: 0.5rem;
+   text-align: center;
     color: #5bf6c3;
 }
 .imgcontainer p {
@@ -109,7 +111,6 @@ p {
 @media (max-width: 480px) {
     
     .container p{
-        text-align: justify;
         width: 97%;
     }
     .imgcontainer p{
@@ -118,12 +119,10 @@ p {
         max-width: 84%;
     }
     .imgcontainer h4{
-        text-align: center;
-        margin: 0;
+        margin-left: 2rem;
     }
 
     .imgcontainer p{
-        text-align: justify;
         width: 90%;
         margin-left: 1.5rem;
     }
@@ -152,10 +151,10 @@ p {
     color:rgb(0, 0, 0);
     gap: 30px;
     justify-content: center;
+    max-width: 90%;
 }
 
 .mvcontainer .mission{
-    max-width: 45%;
     background:#e7f8eb;
     border-radius: 10px;
     padding: 20px 12px;
@@ -164,18 +163,70 @@ p {
     color: rgb(0, 0, 0);
 }
 
-.mvcontainer .vission{
-    max-width: 45%;
-    background: #e7f8eb;
-    border-radius: 10px;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: rgb(0, 0, 0);
-}
 .mvcontainer h1 {
-    color: black;
+    color: rgb(76, 74, 74);
 }
+
+.mcontainer  {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(159, 104, 104);
+    display: flex;
+    flex-direction:row;
+    position: relative;
+    z-index: 1;
+    display: none;
+    }
+
+    .mcontainer .red1{
+        background-color: rgb(255, 0, 0)e;
+        color: white;
+        width: 33.3%;
+        position: relative;
+        z-index: 3;
+        
+    }
+
+    .mcontainer .blue{
+        background-color: rgb(79, 79, 121);
+        color: white;
+        width: 33.3%;
+        position: relative;
+        z-index: 3;
+        justify-content: flex-end;
+        
+    }
+
+    .vcontainer {
+        width: 100%;
+        height: 30px;
+        background-color: rgb(159, 104, 104);
+        display: flex;
+        flex-direction:row;
+        position: relative;
+        z-index: 1;
+        display: none
+        }
+
+        .vcontainer .blue {
+            background-color:  rgb(79, 79, 121);
+            color: white;
+            width: 33.3%;
+            position: relative;
+            z-index: 3;
+        }
+
+        .vcontainer .red1{
+            background-color: rgb(255, 0, 0)e;
+            width: 33.3%;
+            
+        }
+        .vcontainer .red2{
+            background-color: rgb(255, 0, 0)e;
+            width: 33.3%;
+        }
+
+
 
 @media (max-width: 660px) {
     .mvcontainer{ 
@@ -194,6 +245,31 @@ p {
         text-align: center;
         margin-left: 2rem;
     }
+
+    .mission h1{
+        display: none;
+    }
+    
+.mcontainer  {
+    display: block;
+    }
+
+    .mcontainer .blue{
+        height: 100%;
+    }
+
+    .vcontainer {
+        width: 100%;
+        display: block;
+        }
+
+        .vcontainer .blue {
+            height: 100%;
+        }
+
+
+
+    
 }
 
 
@@ -244,6 +320,9 @@ p {
     word-spacing: 2%;
 
 }
+.course-col h3{
+font-size: 2rem;
+}
 .course-col:hover{
     background-color: #4e685f;
     color: white;
@@ -265,6 +344,7 @@ h3 {
     }
     .course-col{
         width: 90%;
+        text-align: center;
     }
 
  }
