@@ -17,6 +17,10 @@
 <!------brief history----->
 
 <body>
+    
+    <section class="header">
+        
+    </section>
 
     <h1 class="schoolname"> BRIEF HISTORY OF KURAMO SENIOR COLLEGE</h1>
     <div class="container">
@@ -87,17 +91,17 @@
         </p>
         <div class="row">
             <div class="course-col">
-                <h3>Science</h3>
+                <h3 id="science">Science</h3>
                 <p>The science department is the backbone of every school departments for that its based on observation, experiment and proving. In Kuramo College, we focus on building the student's ability to provide solutions to a comnmon problem by helping them develop critical thinking skills that could be applied in other subjects or areas of their life and the society in general. Its major subjects are: Physics, Chemistry and Further maths/ Agriculture, Biology and English language.
                 </p>
             </div>
             <div class="course-col">
-                <h3>Art</h3>
+                <h3 id="art">Art</h3>
                 <p>The art department is a room for creativity, entertainment, and self discovery. Its a place where every career/prefession is never negleted. Its the only department that never tags anyone dull as it strongly believe everyone is talented in doing one thing or the other.Kuramo College strive to bring the best out of every student through our weekly humanity activity where students act drama, debate, sing and dance. It major subjects are: Enlish language, Literature, Government, Civic education and Mathematics.  </p>
             </div>
             <div class="course-col">
-                <h3>Commercial</h3>
-                <p>The Commercial department is an economic based department. In Kuramo, we equiped the students with every economic skiils they need to become responsinble for the marketing and sale, collecting, analyzing  and evaluating data for informed decision on any economic issues they may face along their life journey. It major subjects are: 
+                <h3 id="commercial">Commercial</h3>
+                <p>The Commercial department is an economic based department. In Kuramo, we equiped the students with every economic skiils they need to become responsinble for the marketing and sale, collecting, analyzing  and evaluating data for informed decision on any economic issues they may face along their life journey. It major subjects are: Maths, Enlish, Financial Accounting, Commerce, Economics and Government.
                </p>
             </div>
         </div>
@@ -165,6 +169,22 @@
         </div>
     </div>
 
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Content</a></li>
+                <li><a href="page/aboutpage.html">Science</a></li>
+                <li><a href="page/activitiespage.html">Art</a></li>
+            <li><a href="page/contactp.html ">Commercial</a></li>
+                <li><a href="page/aboutpage.html">Mr Lawal A.B</a></li>
+                <li><a href="page/aboutpage.html">Mr Igoche</a></li>
+                <li><a href="page/aboutpage.html">Mr Akanni</a></li>
+                <li><a href="page/aboutpage.html">Mr Samuel</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
     <!------footer----->
 
     <footer>
@@ -174,6 +194,19 @@
             <a href="https://wa.me/+2347086662035"><i class="fa-brands fa-square-whatsapp" style="color:white;  margin: 0.5em;"></i></a>
             <a href=". https://www.instagram.com/invites/contact/?i=pql2d089keng&utm_content=qhg03jt"><i class="fa-brands fa-instagram" style="color:white;  margin: 0.5em;"></i></a>
     </footer>
+     <!---------Javascript For Toggle Menu----->
+
+     <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 
 </html>

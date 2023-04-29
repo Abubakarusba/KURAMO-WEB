@@ -374,3 +374,88 @@ footer {
     margin-top: 20px;
 }
 
+.dcontainer{
+    display: flex;
+    flex-direction:row;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.dcontainer a {
+    text-decoration: none;
+}
+.dcontainer a h6{
+    padding: 5px;
+    color: white;
+}
+
+
+/** java script**/
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav h2 {
+    color: rgb(255, 255, 255);
+}
+.nav a{
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(1, 128, 37);
+
+}
+nav a img {
+    height: 5em;
+    border-start-end-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    z-index: 3;
+}
+
+@media (max-width: 670px) {
+    nav a img {
+        height: 3rem;
+    }
+}
+
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-style: 13px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: green;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
