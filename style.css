@@ -48,6 +48,8 @@ nav a img {
 @media (max-width: 670px) {
     nav a img {
         height: 3rem;
+        margin-top: 10px;
+        word-spacing: 2rem;
     }
 }
 
