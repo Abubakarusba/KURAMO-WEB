@@ -12,10 +12,9 @@ body{
     background-color: rgb(61, 83, 64);
     color: white;
 }
-
-.facilities .oura{
+.oura{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 40px;
     align-items: center;
     justify-content: center;
 }
@@ -55,11 +54,14 @@ activitie-col h3{
 }
 
 @media (max-width: 670px) {
-   img {
-        height: 10rem;
-        width: auto;
+    .facilities img {
+        height: auto;
+        width: 260;
         border-radius: 10px;
 
+        }
+        .oura {
+            font-size: 30px;
         }
 
         p {
