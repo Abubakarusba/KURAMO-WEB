@@ -47,6 +47,7 @@ p {
     padding: 5px;
     line-height: 25px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 @media (max-width: 670px) {
@@ -146,12 +147,14 @@ p {
 .mvcontainer{
     display: flex;
     flex-direction: row;
-    margin-right: 2rem;
     margin-top: 3rem;
     color:rgb(0, 0, 0);
     gap: 30px;
     justify-content: center;
     max-width: 90%;
+    vertical-align: middle;
+    display: none;
+
 }
 
 .mvcontainer .mission{
@@ -161,6 +164,7 @@ p {
     box-sizing: border-box;
     transition: 0.5s;
     color: rgb(0, 0, 0);
+
 }
 
 .mvcontainer h1 {
