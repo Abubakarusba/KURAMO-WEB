@@ -276,6 +276,9 @@ h3 {
     .facilities-col img{
         height: 260px;
     }
+    p{
+        font-size: 14px;
+    }
 }
 
 /*--------facilities--------*/

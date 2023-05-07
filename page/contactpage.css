@@ -212,4 +212,7 @@ body {
         margin-bottom: 0px;
         justify-content: fl;
     }
+    p{
+        font-size: 14px;
+    }
 }
