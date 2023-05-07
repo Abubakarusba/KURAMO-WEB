@@ -378,10 +378,14 @@ h3 {
 .course-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
+.contents ul{
+    text-align: justify;
+}
 
 @media (max-width:670px) {
     .row {
         flex-direction: column;
+        margin-bottom: 30px;
     }
     .course-col{
         width: 90%;
