@@ -64,6 +64,7 @@ body {
 
 .leftdiv .margin h3 {
     margin-top: 20px;
+    margin-left: 0px;
 }
 
 .rightdiv {
@@ -74,12 +75,12 @@ body {
     font: inherit;
     font-size: 100%;
     background-color: white;
-    padding-bottom: 0px;
+    padding-bottom: 0px;   
 }
 
 .margin {
     margin-left: 15%;
-    margin-top: 12%;
+    margin-top: 25px;
 }
 
 .rightdiv .margin h6 {
@@ -137,6 +138,13 @@ body {
 .tc {
     border: none;
     display: none;
+}
+
+.submit{
+    color: green;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 20%;
 }
 
 @media (max-width: 480px) {

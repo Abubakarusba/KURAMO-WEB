@@ -54,11 +54,23 @@ p {
     .container p{
         text-align: center;
     }
-    .schoolname{
+    .schoolname {
         font-size: 1.5rem;
         max-width: 80%;
         margin-left: 10%;
         text-align: center;
+    }
+    .course h1{
+        font-size: 1.5rem;
+    }
+    .course-col .science {
+        font-size: 1.5rem;
+    }
+    .course-col .art{
+        font-size: 1.5rem;
+    }
+    .course-col .commercial{
+        font-size: 1.5rem;
     }
 }
 
@@ -229,8 +241,50 @@ p {
             background-color: rgb(255, 0, 0)e;
             width: 33.3%;
         }
+        .contents {
+            color: #dcf3e2;
+            display: flex;
+            flex-direction: row;
+        }
 
+        a{
+            text-decoration: none;
+        }
+        
+        
 
+.contents {
+    display: flex;
+    flex-direction: row;
+}
+
+.contents ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 3px 2px;
+    position: relative;
+    text-align: center;
+}
+
+.contents ul li a {
+    color: white;
+    text-decoration: none;
+    font-style: 13px;
+}
+
+.contents ul li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: hsl(120, 54%, 35%);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.ctn{
+    text-align: center;
+    color: #5bf6c3;
+}
 
 @media (max-width: 660px) {
     .mvcontainer{ 

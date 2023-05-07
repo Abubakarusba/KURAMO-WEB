@@ -15,7 +15,7 @@ body{
 .oura{
     font-weight: 700;
     font-size: 40px;
-    align-items: center;
+    text-align: center;
     justify-content: center;
 }
 
@@ -53,10 +53,11 @@ activitie-col h3{
     font-size: 2rem;
 }
 
+
 @media (max-width: 670px) {
     .facilities img {
         height: auto;
-        width: 260;
+        width: 280px;
         border-radius: 10px;
 
         }
@@ -66,6 +67,7 @@ activitie-col h3{
 
         p {
             text-align: center;
+           
         }
         h1, h3 {
             text-align: center;
