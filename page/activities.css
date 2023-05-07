@@ -57,7 +57,7 @@ activitie-col h3{
 @media (max-width: 670px) {
     .facilities img {
         height: auto;
-        width: 260px;
+        width: 240px;
         border-radius: 10px;
 
         }
