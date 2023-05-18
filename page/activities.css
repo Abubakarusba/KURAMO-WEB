@@ -57,7 +57,7 @@ activitie-col h3{
 @media (max-width: 670px) {
     .facilities img {
         height: auto;
-        width: 220px;
+        width: 100%;
         border-radius: 10px;
 
         }
@@ -71,6 +71,11 @@ activitie-col h3{
         }
         h1, h3 {
             text-align: center;
+        }
+
+        .footerp{
+            margin-left: 50px;
+            margin-right: 50px;
         }
 }
 
