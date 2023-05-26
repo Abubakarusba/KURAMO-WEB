@@ -21,17 +21,19 @@ body {
 }
 
 .leftdiv {
-    height: 120vh;
+    height: 110vh;
     width: 30%;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     font-size: 100%;
     color: white;
     background-color: #05160b;
     position: relative;
     padding-bottom: 0px;
 }
+
 
 .leftdiv .margin {
     margin-left: 20px;
@@ -68,10 +70,11 @@ body {
 }
 
 .rightdiv {
-    height: 120vh;
+    height: 110vh;
     width: 70%;
     margin-top: 50px;
-    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     font: inherit;
     font-size: 100%;
     background-color: white;
@@ -87,9 +90,6 @@ body {
     margin-top: 20px;
 }
 
-.rightdiv .dotcon {
-    display: none;
-}
 
 .rightdiv .margin .im {
     width: 80%;
@@ -118,33 +118,15 @@ body {
     border: none;
 }
 
-.classcol label {
-    padding: 0.5em;
-}
-
-.classco2 {
-    display: flex;
-    flex-direction: column;
-    border: none;
-    position: absolute;
-    margin-left: 10em;
-    margin-top: -115px;
-}
-
-.classco2 label {
-    padding: 0.5em;
-}
-
-.tc {
-    border: none;
-    display: none;
-}
-
 .submit{
-    color: green;
+    color: rgb(18, 53, 18);
     margin-top: 20px;
     margin-bottom: 0;
     width: 20%;
+}
+
+.service{
+    margin-top: 30px;
 }
 
 @media (max-width: 480px) {
@@ -158,26 +140,10 @@ body {
         position: left end;
         margin-left: -100px;
     }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .leftdiv {
-        margin-top: 0px;
-        width: 90%;
-        height: 100%;
-        padding-bottom: 0px;
-        text-align: center;
-        justify-content: center;
-        font-size: 1.2rem;
-        padding: 0px;
-        height: 90vh;
-        position: relative;
-        display: none;
-    }
+  .leftdiv{
+    display: none;
+   }
+}
 
     .leftdiv .icons {
         padding-top: 0px;
@@ -185,11 +151,6 @@ body {
         margin-top: -200px;
     }
 
-    .rightdiv {
-        width: 90%;
-        height: 100%;
-        padding-bottom: 50px;
-    }
 
     small {
         display: none;
@@ -212,6 +173,7 @@ body {
         margin-bottom: 0px;
         justify-content: fl;
     }
+
     p{
         font-size: 14px;
     }
