@@ -27,6 +27,8 @@ body{
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -59,15 +61,18 @@ activitie-col h3{
         height: auto;
         width: 100%;
         border-radius: 10px;
-
+        align-items: center;
+        height: 300px;
+        width: 350px;
         }
+
         .oura {
             font-size: 25px;
         }
 
         p {
             text-align: center;
-           font-size: 14px;
+           font-size: 18px;
         }
         h1, h3 {
             text-align: center;
