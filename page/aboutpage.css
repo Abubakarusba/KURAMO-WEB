@@ -160,11 +160,11 @@ p {
     .imgcontainer .al p {
         text-align: center;
         margin-left: 0;
-        max-width: 84%;
+        max-width: 90%;
     }
 
     .imgcontainer h4 {
-        margin-left: 2rem;
+      text-align: center;
     }
 
     .imgcontainer .al img {
