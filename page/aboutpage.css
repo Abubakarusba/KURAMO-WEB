@@ -169,9 +169,8 @@ p {
 
     .imgcontainer .al img {
         margin-top: 1.5rem;
-        margin-left: 2rem;
         border-radius: 10px;
-        width: 100%;
+        width: 95%;
     }
 
 }
