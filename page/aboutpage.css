@@ -84,6 +84,7 @@ p {
     flex-basis: 30px;
     align-items: center;
     justify-content: center;
+    display: grid;
 }
 
 .imgcontainer div img {
@@ -174,6 +175,7 @@ p {
         margin-left: 2rem;
         width: 84%;
         border-radius: 10px;
+        place-items: center;
     }
 
 }
