@@ -40,10 +40,6 @@ body {
     margin-top: 50px;
 }
 
-.leftdiv .dotcon {
-    padding: 10px;
-}
-
 .leftdiv .margin .icons {
     align-items: center;
     margin-left: 0px;
@@ -130,10 +126,11 @@ body {
 }
 
 @media (max-width: 480px) {
-    .rightdiv .dotcon {
-        display: block;
-        margin-left: 80px;
-        margin-top: 10px;
+    .leftdiv{
+        display: none;
+    }
+    .rightdiv{
+        width: 100%;
     }
 
     .margin .cons {
@@ -177,4 +174,3 @@ body {
     p{
         font-size: 14px;
     }
-}
