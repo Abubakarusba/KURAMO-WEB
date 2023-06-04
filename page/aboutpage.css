@@ -156,11 +156,10 @@ p {
     .container p {
         width: 97%;
     }
-
     .imgcontainer .al p {
         text-align: center;
         margin-left: 0;
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .imgcontainer h4 {
