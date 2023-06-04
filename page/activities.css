@@ -65,8 +65,12 @@ activitie-col h3{
     .activitie-col p{
         max-width: 100%;
     }
+    .activitie-col h3{
+        border-bottom: 3px solid rgb(107, 131, 21);
+    }
         .oura {
             font-size: 25px;
+            border-bottom: 3px solid rgb(107, 131, 21);
         }
 
         p {
