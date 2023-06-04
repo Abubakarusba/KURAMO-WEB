@@ -170,9 +170,8 @@ p {
     .imgcontainer .al img {
         margin-top: 1.5rem;
         margin-left: 2rem;
-        width: 84%;
         border-radius: 10px;
-        place-items: center;
+        width: 100%;
     }
 
 }
