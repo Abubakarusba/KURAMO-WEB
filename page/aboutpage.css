@@ -82,9 +82,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: 30px;
-    align-items: center;
-    justify-content: center;
-    display: grid;
+    flex-direction: row;
 }
 
 .imgcontainer div img {
@@ -152,7 +150,6 @@ p {
     min-height: 590px;
 }
 .imgcontainer .al:nth-child(3){
-    min-height: ;
 }
 @media (max-width: 480px) {
 
