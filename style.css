@@ -13,7 +13,6 @@
     background-position: center;
     background-size: cover;
     position: relative;
-
 }
 
 p {
@@ -26,19 +25,20 @@ nav {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-
 }
 
 nav h2 {
     color: rgb(255, 255, 255);
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     text-decoration-style: solid;
     text-decoration-color: rgb(1, 128, 37);
     overflow: hidden;
 
 }
+
 nav a img {
     height: 5em;
     border-start-end-radius: 15px;
@@ -51,8 +51,12 @@ nav a img {
 
 @media (max-width: 670px) {
     nav a img {
-        height: 3rem;
+        height: 2rem;
         margin-bottom: 100px;
+        border-start-end-radius:  0px;
+        border-bottom-left-radius:  0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
     }
 }
 
@@ -182,6 +186,7 @@ h1 {
     font-size: 36px;
     font-weight: 600;
 }
+
 p {
     color: "#777";
     font-size: 14px;
@@ -189,11 +194,13 @@ p {
     line-height: 22px;
     padding: 10px;
 }
+
 .row {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
+
 .course-col {
     flex-basis: 31%;
     background: #e7f8eb;
@@ -209,6 +216,7 @@ h3 {
     font-weight: 600;
     margin: 10px 0;
 }
+
 .course-col:hover {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -217,31 +225,32 @@ h3 {
     .row {
         flex-direction: column;
     }
- }
+}
 
- /*------premises-----*/
+/*------premises-----*/
 
- .campus{
+.campus {
     width: 80%;
     margin: auto;
     text-align: center;
     padding: 50px;
- }
+}
 
- .campus-col {
+.campus-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
- }
- .campus-col img {
+}
+
+.campus-col img {
     width: 100%;
     background-size: contain;
     display: block;
- }
+}
 
- .layer {
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -249,12 +258,13 @@ h3 {
     top: 0;
     left: 0;
     transition: 0.5s;
- }
- .layer:hover {
-    background:  rgba(25, 104, 25, 0.7);
- }
+}
 
- .layer h3 {
+.layer:hover {
+    background: rgba(25, 104, 25, 0.7);
+}
+
+.layer h3 {
     width: 100%;
     font-weight: 500;
     color: white;
@@ -265,20 +275,23 @@ h3 {
     position: absolute;
     opacity: 0;
     transition: 0.5s;
- }
- .layer:hover h3 {
+}
+
+.layer:hover h3 {
     bottom: 49%;
     opacity: 1;
- }
+}
 
 @media (max-width: 700px) {
     .campus-col img {
         height: 200px;
     }
-    .facilities-col img{
+
+    .facilities-col img {
         height: 260px;
     }
-    p{
+
+    p {
         font-size: 14px;
     }
 }
@@ -292,6 +305,7 @@ h3 {
     padding-top: 100px;
 
 }
+
 .facilities-col {
     flex-basis: 31%;
     border-radius: 10px;
@@ -300,13 +314,16 @@ h3 {
     margin-left: 5px;
 
 }
-.facilities-col img{
+
+.facilities-col img {
     width: 100%;
     border-radius: 10px;
 }
+
 facilities-col p {
     padding: 0;
 }
+
 facilities-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
@@ -321,7 +338,8 @@ facilities-col h3 {
     padding-top: 100px;
     text-align: center
 }
-.testimonial-col{
+
+.testimonial-col {
     flex-basis: 44%;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -331,6 +349,7 @@ facilities-col h3 {
     cursor: pointer;
     display: flex;
 }
+
 .testimonial-col img {
     height: 50px;
     width: 200px;
@@ -338,8 +357,9 @@ facilities-col h3 {
     margin-right: 30px;
     border-radius: 50%;
 }
+
 .testimonial-col img p {
-padding: 0;
+    padding: 0;
 }
 
 .testimonial-col h3 {
@@ -349,28 +369,31 @@ padding: 0;
     margin-left: 9.5px;
 }
 
-.testimonial-col .fa, .fa-regular {
-    color:#05160b;
+.testimonial-col .fa,
+.fa-regular {
+    color: #05160b;
 }
 
 @media (max-width:700px) {
-.testimonial-col {
-    margin-left: 0px;
-    margin-right: 15px;
-}
-.testimonial-col p{
-    margin-top: -12px;
-    margin-left: -5px;
-}
-.testimonial-col h3{
-    font-size: 15px;
-    margin-left: -1px;
-}
+    .testimonial-col {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
 
-.testimonial-col img {
-    height: 30px;
-    width: 150px;
-}
+    .testimonial-col p {
+        margin-top: -12px;
+        margin-left: -5px;
+    }
+
+    .testimonial-col h3 {
+        font-size: 15px;
+        margin-left: -1px;
+    }
+
+    .testimonial-col img {
+        height: 30px;
+        width: 150px;
+    }
 }
 
 /*-------call to action-------*/
@@ -378,7 +401,7 @@ padding: 0;
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/cta.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/cta.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -390,35 +413,111 @@ padding: 0;
     color: white;
     margin-bottom: 40px;
     padding: 0;
-  
+
 }
+
 @media (max-width: 700px) {
     .cta h1 {
-        font-size: 24px;}
+        font-size: 24px;
     }
+}
 
 /*---------footer---------*/
 
 .footer {
     width: 100%;
-    text-align: center;
+    height: 50vh;
     padding: 30px 0;
-    background-color: rgb(5, 22, 11);
-    width: 100%;
+    background-color: rgb(3, 27, 2);
     color: #dcf3e2;
 }
 
-.footer .footera{
-    margin-right: 50px;
-    margin-left: 50px;
+.footer .nav2 {
+    text-align: center;
+    opacity: 0.5;
 }
+
+.footer .nav2 a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.footer .mctn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: center;
+    gap: 10em;
+}
+
+.footer .ctn2 .service {
+    color: orangered;
+    line-height: 40px;
+}
+
+.footer .ctn3 .vission {
+    color: orangered;
+    line-height: 40px;
+}
+
+.footer .ctn1 .line {
+    width: 100%;
+    height: 2px;
+    background-color: orangered;
+}
+
+.footer .cr {
+    text-align: right;
+    margin-top: 3.3em;
+    margin-right: 1em;
+    opacity: 0.3;
+}
+
+
 footer h4 {
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
 }
+
 .icons .fa-brands {
     margin: 0 13px;
     cursor: pointer;
     padding: 15px 0;
+}
+
+@media (max-width: 576px) {
+    .footer {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer .mctn {
+        display: flex;
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .footer .mctn .ctn1 {
+        text-align: center;
+    }
+
+    .footer .mctn .ctn2 {
+        margin-left: 3em;
+    }
+
+    .footer .mctn .ctn3 {
+        position: absolute;
+        text-align: right;
+        margin-left: 47%;
+        margin-right: 3em;
+        margin-bottom: 0em;
+        margin-top: 7em;
+    }
+    .footer .cr{
+        text-align: center;
+    }
 }
