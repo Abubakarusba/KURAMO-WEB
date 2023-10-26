@@ -493,6 +493,7 @@ footer h4 {
         height: auto;
         align-items: center;
         justify-content: center;
+        
 
     }
 
@@ -501,14 +502,17 @@ footer h4 {
         flex-direction: column;
         gap: 0em;
         
+        
     }
 
     .footer .mctn .ctn1 {
         text-align: center;
+        
     }
 
     .footer .mctn .ctn2 {
         margin-left: 3em;
+        display: none;
     }
 
     .footer .mctn .ctn3 {
@@ -518,8 +522,10 @@ footer h4 {
         margin-right: 3em;
         margin-bottom: 0em;
         margin-top: 7em;
+        display: none;
     }
     .footer .cr{
         text-align: center;
+        margin-top: 0px;
     }
 }
